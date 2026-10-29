@@ -1,5 +1,4 @@
-# Tes sensor saja (tanpa MQTT). Jalankan di HP A dan HP B.
-# Tutup sensor cahaya dengan jari, lalu senter. Angka lux harus berubah
+"""Tes sensor saja (tanpa MQTT). Jalankan di HP A dan HP B. Tutup sensor cahaya dengan jari, lalu senter. Angka lux harus berubah"""
 import time
 from shared import PhoneSensors
 
