@@ -38,8 +38,7 @@ class PhoneSensors:
     Kenapa stream? `termux-sensor -n 1` memulai sensor lalu langsung
     mematikannya. Sensor cahaya bersifat on-change, jadi sering belum sempat
     melapor dan hasilnya 0.0 / basi. Dengan stream, sensor dibiarkan menyala
-    dan kita tinggal ambil nilai terbaru.
-    """
+    dan kita tinggal ambil nilai terbaru."""
 
     def __init__(self, accel=True, light=True, simulator=False, room=False):
         self.sim, self.room = simulator, room
